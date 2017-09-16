@@ -1,9 +1,11 @@
+var appName = "Hotel MEAN application";
+
 var hello = function(name) {
-	console.log('Hello'+name);
+	console.log('Hello '+name);
 };
 
 var intro = function() {
-	console.log("Welcome to the Hotel MEAN application.");
+	console.log("Welcome to the "+appName+".");
 };
 
 module.exports = {
