@@ -4,10 +4,11 @@ var fs = require('fs');
 // that will take longer 
 console.log("Going to get a file");
 
+//async named callback
 var onFileLoad = function(err, file) {
 	console.log("Got the file");
 }
-fs.readFile('readFileSync.js', onFileLoad); //callback to named callback
+fs.readFile('readFileSync.js', onFileLoad);
 
 //anonymous call back
 /*
